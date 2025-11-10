@@ -245,3 +245,21 @@ document.addEventListener("DOMContentLoaded", function () {
     saveTable("equipmentTableContainer", "Equipment_Specifications_Table");
   });
 
+  // ==============================
+// 👷 جدول العمال (Workers Table)
+// ==============================
+document.getElementById("workersGenerateBtn").addEventListener("click", () => {
+  generateTable(
+    "/generate_table/workers",
+    "workersInput",
+    "workersTableContainer",
+    "workersSaveBtn",
+    "workersLoading"
+  );
+});
+
+document.getElementById("workersSaveBtn").addEventListener("click", () => {
+  saveTable("workersTableContainer", "Workers_Table");
+});
+
+

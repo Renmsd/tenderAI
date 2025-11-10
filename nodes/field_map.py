@@ -71,6 +71,7 @@ FIELD_MAP = {
     "Bill_of_Quantities_and_Prices": "llm",
     "Materials_Specifications_Table":"llm",
     "Equipment_Specifications_Table":"llm",
+    "Workers_Table":"llm",
     "Service_Execution_Method":"llm",
 
 
