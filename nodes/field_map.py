@@ -5,7 +5,7 @@ FIELD_MAP = {
     "Government_Agency": "input",
     "Competition_Name": "input",
     "Booklet_Number": "input",
-    "Announcement_Date": "input",
+    "Issue_Date": "input",
     "Competition_Document_Fees": "input",
     "Payment_Method": "input",
     "Name_of_Government_Agency_Representative": "input",
